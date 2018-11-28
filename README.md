@@ -1,5 +1,3 @@
-# React Tic Tac Toe - One On One
+# React Tic Tac Toe Game
 
-Download this code from GitHub into a directory using the following command:
-
-`curl -sL -o /tmp/script http://bit.ly/2yWTwte && source /tmp/script`
+Play Tic Tac Toe on a stylish board! 
