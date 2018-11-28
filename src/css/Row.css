@@ -1,0 +1,7 @@
+div.row:first-of-type span {
+  border-bottom: 3px solid #fff;
+}
+
+div.row:last-of-type span {
+  border-top: 3px solid #fff;
+}

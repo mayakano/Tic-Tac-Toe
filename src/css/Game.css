@@ -1,0 +1,26 @@
+.score-board {
+  text-align: center;
+}
+
+.board {
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.play-again {
+  text-align: center;
+}
+
+.play-again .play {
+  cursor: pointer;
+  display: inline-block;
+  margin: 3rem auto;
+}
+
+.play-again .play:hover {
+  background-color: #DC8474
+}
+
+.play-again .play:active {
+  background-color: #4378B8
+}

@@ -1,0 +1,28 @@
+
+.neon {
+  text-align: center;
+  font-size: 8em;
+  font-family: 'LearningCurveProRegular';
+  font-weight: normal;
+  color: #fff7fa;
+  -webkit-animation: neon 1.5s ease-in-out infinite alternate;
+          animation: neon 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes neon {
+  from {
+    text-shadow: 0 0 5px white, 0 0 10px rgba(255, 255, 255, 0.5), 0 0 15px rgba(255, 255, 255, 0.25), 0 0 20px #FF1166, 0 0 35px #FF1166, 0 0 40px #FF1166, 0 0 50px #FF1166, 0 0 75px #FF1166, 0 0 85px black;
+  }
+  to {
+    text-shadow: 0 0 5px white, 0 0 15px rgba(255, 255, 255, 0.75), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px #FF1166, 0 0 45px #FF1166, 0 0 50px #FF1166, 0 0 60px #FF1166, 0 0 85px #FF1166, 0 0 95px black;
+  }
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 5px white, 0 0 10px rgba(255, 255, 255, 0.5), 0 0 15px rgba(255, 255, 255, 0.25), 0 0 20px #FF1166, 0 0 35px #FF1166, 0 0 40px #FF1166, 0 0 50px #FF1166, 0 0 75px #FF1166, 0 0 85px black;
+  }
+  to {
+    text-shadow: 0 0 5px white, 0 0 15px rgba(255, 255, 255, 0.75), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px #FF1166, 0 0 45px #FF1166, 0 0 50px #FF1166, 0 0 60px #FF1166, 0 0 85px #FF1166, 0 0 95px black;
+  }
+}

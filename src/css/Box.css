@@ -1,0 +1,41 @@
+span {
+  background-size: cover;
+  display: inline-block;
+  height: 10vw;
+  width: 10vw;
+}
+
+span:first-child {
+  border-right: 3px solid #fff;
+}
+
+span:last-child {
+  border-left: 3px solid #fff;
+}
+
+.image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 96%;
+  width: 96%;
+}
+
+span.Cross .image {
+  background-image: url(https://vignette.wikia.nocookie.net/theloudhouse/images/a/a5/X.png/revision/latest?cb=20170917150003);
+
+  filter: invert(100%);
+}
+
+span.Circle .image{
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Map-circle-black.svg/1024px-Map-circle-black.svg.png);
+  filter: invert(100%);
+}
+
+span.me {
+  background-image: url();
+}
+
+span:hover {
+  cursor: pointer;
+}
